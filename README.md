@@ -18,9 +18,10 @@ A simple Python program that allows you to add, remove and view information abou
 ### Docker (preferred method)
 I assume, that you have basic docker acknowledge. Please DM me if you need help.
 1. Open terminal
-2. Change the active directory to match the apllication's localization.
-3. Run `docker build -t perfume-db .` (dot on the end is important).
-4. And finally type `docker run -it perfume-db` to run the app.
+2. Clone this repo (`git clone` or just download it manually)
+3. Change the active directory to match the apllication's localization.
+4. Run `docker build -t perfume-db .` (dot on the end is important).
+5. And finally type `docker run -it perfume-db` to run the app.
 
 ### Other
 You can also run the application without Docker, but depending on your operating system, you may need to take additional steps (such as installing additional packages). To run the application you just need to install the Python modules listed in the Requirements -> Python Modules, and for run `main.py` file (e.g. `python main.py`)
